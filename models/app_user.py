@@ -1,11 +1,10 @@
 # coding: utf-8
 from models.ex_import import *
 
+# design by seven  2022-11-25 09:42:15
 
-# design by seven  2022-11-24 16:06:16
 
-
-class AppUser(Base, CUdr):
+class AppUser(Base,CUdr):
     __tablename__ = 'app_user'
 
     id = Column(INTEGER(11), primary_key=True)

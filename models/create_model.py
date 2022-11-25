@@ -2,7 +2,8 @@
 import os
 
 table_list = [
-	"app_user"
+	"app_user",
+	"web_info"
 ]
 for x in table_list:
 	print(x + '\r')
